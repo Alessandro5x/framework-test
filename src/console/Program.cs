@@ -1,4 +1,4 @@
-namespace technical.challenge.console
+namespace console
 {
     using System;
     using domain.Entidades;
@@ -21,7 +21,7 @@ namespace technical.challenge.console
             bool mostrarMenu = true;
             while (mostrarMenu)
             {
-                mostrarMenu = mostrarMenu();
+                mostrarMenu = Menu();
             }
         }
 
