@@ -1,7 +1,8 @@
 namespace util
 {
     public static class Util
-    {
+    {   
+        static void Main() {}
         public static bool CheckPrime(long number)
         {            
             if (number <= 1) return false;

@@ -1,0 +1,16 @@
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.csproj.AssemblyReference.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.AssemblyInfoInputs.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.AssemblyInfo.cs
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.exe
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.deps.json
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.runtimeconfig.json
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.runtimeconfig.dev.json
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.dll
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\bin\Debug\net5.0\domain.pdb
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.dll
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\refint\domain.dll
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.pdb
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\domain.genruntimeconfig.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\src\domain\obj\Debug\net5.0\ref\domain.dll

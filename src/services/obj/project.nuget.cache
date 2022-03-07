@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LXkg1w0GqboQxXWuecSJWgtdMDS/GJ2RvKvVuIswPGqLFPoixcPo/+EcsvPF/b8C8YgBWpXQG0xhxeM+Y4A9Ow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

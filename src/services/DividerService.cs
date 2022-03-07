@@ -11,17 +11,18 @@ namespace services
 
     public class DividerService : IDividerService
     {
-        public async DividerResponse CalculateDivider(Divider divider)
+        static void Main() {}
+        public DividerResponse CalculateDivider(Divider divider)
         {
             DividerResponse response = new DividerResponse();
             try
             {
                 DividerValidator dividerValidator = new DividerValidator();
-                var resultValidator = dividerValidator.Validate(divisor);
+                var resultValidator = dividerValidator.Validate(divider);
 
                 if (!resultValidator.IsValid)
                 {
-                    response.Erro = resultValidator.Errors[0].ErrorMessage;
+                    response.Error = resultValidator.Errors[0].ErrorMessage;
                     response.Ok = false;
                     return response;
                 }
@@ -41,10 +42,10 @@ namespace services
                     {
                         if (Util.CheckPrime(item))
                         {
-                            dividersPrimes.Add(item);
+                            dividerPrimes.Add(item);
                         }
                     }
-                    response.Dividers = dividersPrimes;
+                    response.Dividers = dividerPrimes;
                 }
 
                 response.Ok = true;
@@ -53,7 +54,7 @@ namespace services
             }
             catch (Exception ex)
             {
-                response.Erro = ex.Message;
+                response.Error = ex.Message;
                 response.Ok = false;
 
                 return response;

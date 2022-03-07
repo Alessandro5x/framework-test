@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tBP/BYMsfhJlAR/S+UUEG/3AHVaZ5LfCUy7cgHUZtkA3L0dptR5iKl6VFo7ol+ibY41o5ZS1JTDnw+JkC4/OGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\obj\Debug\net6.0\framework-test.csproj.AssemblyReference.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\obj\Debug\net6.0\framework-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\obj\Debug\net6.0\framework-test.AssemblyInfoInputs.cache
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\obj\Debug\net6.0\framework-test.AssemblyInfo.cs
+C:\Users\Alessandro.Azevedo\Documents\Personal\framework-test\obj\Debug\net6.0\framework-test.csproj.CoreCompileInputs.cache

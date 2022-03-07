@@ -14,6 +14,10 @@ namespace domain.Entidades
             Number = number;
             Prime = prime;
         }
+        public Divider()
+        {
+            
+        }
 
         //Verificar necessidade de construtor vazio
     }

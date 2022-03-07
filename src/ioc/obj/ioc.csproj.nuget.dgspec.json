@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\ioc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro.Azevedo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\ioc.csproj",
+        "projectName": "framework_test.ioc",
+        "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\ioc.csproj",
+        "packagesPath": "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro.Azevedo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj"
+              },
+              "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj": {
+                "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj",
+        "projectName": "services",
+        "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\services.csproj",
+        "packagesPath": "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro.Azevedo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj": {
+                "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\domain\\domain.csproj"
+              },
+              "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\util.csproj": {
+                "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\util.csproj",
+        "projectName": "framework_test.util",
+        "projectPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\util.csproj",
+        "packagesPath": "C:\\Users\\Alessandro.Azevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandro.Azevedo\\Documents\\Personal\\framework-test\\src\\util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alessandro.Azevedo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

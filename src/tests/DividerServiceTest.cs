@@ -1,7 +1,6 @@
 namespace tests
 {
     using domain.Entidades;
-    using services;
     using System.Collections.Generic;
     using services;
     using Xunit;

@@ -2,9 +2,10 @@ namespace ioc
 {
     using domain.Interfaces;
     using Microsoft.Extensions.DependencyInjection;
-    using technical.challenge.services;
+    using services;
     public static class NativeInjectorBootstrapper
-    {
+    {   
+        static void Main() {}
         public static ServiceProvider GetProvider(IServiceCollection services)
         {
             RegistrarServices(services);
