@@ -1,0 +1,22 @@
+#imagem .netcore para buildar o projeto
+FROM mcr.microsoft.com/dotnet/core/sdk:6.0 AS build-env
+
+#pasta de onde o projeto será executado
+WORKDIR /app
+
+#copiando para a raiz
+COPY . ./
+WORKDIR /app/src/api
+
+#restaurando dependencias do projeto
+RUN dotnet restore
+
+#publicando o projeto
+RUN dotnet publish -c Release -o out
+
+#imagem para executar o projeto
+FROM mcr.microsoft.com/dotnet/core/aspnet:6.0
+WORKDIR /app
+
+COPY --from=build-env /app/src/api/out .
+ENTRYPOINT ["dotnet", "api.dll"]
