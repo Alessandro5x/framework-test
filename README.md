@@ -16,10 +16,11 @@ Para desenvolvimento desse projeto foram utilizadas algumas referências do cana
 Ao longo do projeto devido a alguns problemas de referência do NuGet a versão do .Net foi alterada de 6 para 5.
 
 ## ▶️ Executando
-Esse projeto contém 3 maneiras para execução
-1 - Por meio do console application executando o projeto console, ou utilizando o dotnet run dentro dessa pasta
-2 - Por meio da API executando o projeto api, o qual já abre no swagger com a descrição.
-3 - Utilizando docker (Necessário a instalação do memso):
+Esse projeto contém 3 maneiras para execução:
+
+### 1 - Por meio do console application executando o projeto console, ou utilizando o dotnet run dentro dessa pasta
+### 2 - Por meio da API executando o projeto api, o qual já abre no swagger com a descrição.
+### 3 - Utilizando docker (Necessário a instalação do memso):
     - Entre na pasta do projeto via linha de comando
     - Execute o comando "docker build -t divisores-api-image -f Dockerfile-api ." o qual executa os comandos do Dockerfile
     - Execute o comando "docker build -t divisores-api-image -f Dockerfile-api ." 
